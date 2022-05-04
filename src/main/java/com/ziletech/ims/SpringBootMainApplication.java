@@ -1,13 +1,13 @@
-package com.bezkoder.spring.jdbc.mysql;
+package com.ziletech.ims;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootJdbctemplateMysqlApplication {
+public class SpringBootMainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootJdbctemplateMysqlApplication.class, args);
+		SpringApplication.run(SpringBootMainApplication.class, args);
 	}
 
 }

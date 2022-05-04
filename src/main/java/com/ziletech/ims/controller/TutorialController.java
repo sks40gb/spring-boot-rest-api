@@ -1,8 +1,10 @@
-package com.bezkoder.spring.jdbc.mysql.controller;
+package com.ziletech.ims.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ziletech.ims.model.Tutorial;
+import com.ziletech.ims.repository.TutorialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,9 +18,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.bezkoder.spring.jdbc.mysql.model.Tutorial;
-import com.bezkoder.spring.jdbc.mysql.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:8080")
 @RestController

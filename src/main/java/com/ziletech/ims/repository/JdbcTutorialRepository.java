@@ -1,14 +1,13 @@
-package com.bezkoder.spring.jdbc.mysql.repository;
+package com.ziletech.ims.repository;
 
 import java.util.List;
 
+import com.ziletech.ims.model.Tutorial;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.IncorrectResultSizeDataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-
-import com.bezkoder.spring.jdbc.mysql.model.Tutorial;
 
 @Repository
 public class JdbcTutorialRepository implements TutorialRepository {

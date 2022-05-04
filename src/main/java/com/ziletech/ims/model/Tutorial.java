@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jdbc.mysql.model;
+package com.ziletech.ims.model;
 
 public class Tutorial {
 

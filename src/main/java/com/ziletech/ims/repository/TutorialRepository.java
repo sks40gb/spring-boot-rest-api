@@ -1,8 +1,8 @@
-package com.bezkoder.spring.jdbc.mysql.repository;
+package com.ziletech.ims.repository;
 
 import java.util.List;
 
-import com.bezkoder.spring.jdbc.mysql.model.Tutorial;
+import com.ziletech.ims.model.Tutorial;
 
 public interface TutorialRepository {
   int save(Tutorial book);
